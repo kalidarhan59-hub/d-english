@@ -1,0 +1,42 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [
+    "server",
+    "db",
+    "user"
+  ],
+  "dev_command": "pnpm run dev",
+  "env_vars": {
+    "DATABASE_URL": "mysql://3Mpv5VprownvfX4.f029e4e60bbf:DY5E6aR8fJ58Dkwj2TLo@gateway03.us-east-1.prod.aws.tidbcloud.com:4000/4bEE99mNkHJYPjdrFGv8Tc?ssl={\"rejectUnauthorized\":true}"
+  },
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "https://7f0548f6b28a1758d9bf7be630d36cb4.artifacts.cloudflare.net/git/prod/4bEE99mNkHJYPjdrFGv8Tc.git",
+    "expiration": "2026-08-19T15:42:00.619Z",
+    "token": "art_v2_x_533bed7702b73d8090b13075182d26a442ef6ff6?expires=1787154120",
+    "backend": "GIT_BACKEND_ARTIFACTS"
+  },
+  "name": "d-english",
+  "path": "/home/ubuntu/d-english",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "AF3sCn5Vi9RmfdkiriZkGS",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "D2uJkiafS8f7T7RipMrVkB",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Арар Ннн",
+    "OWNER_OPEN_ID": "S4rEopCYmhCR5PmJWCjq9A",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "4a4b92fe-fb15-4b22-965f-83022814df10",
+    "VITE_APP_ID": "4bEE99mNkHJYPjdrFGv8Tc",
+    "VITE_APP_LOGO": "",
+    "VITE_APP_TITLE": "D-English — English Learning Platform",
+    "VITE_FRONTEND_FORGE_API_KEY": "E4CGGw9Vvja5Ddiu96w8YM",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-db-user",
+  "test_command": "pnpm test"
+}
